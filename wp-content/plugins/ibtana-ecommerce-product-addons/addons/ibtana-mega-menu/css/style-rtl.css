@@ -1,0 +1,172 @@
+
+.iepa_enable_rtl .iepa-megamenu-main-wrapper.iepa-orientation-horizontal ul.iepa-mega-wrapper > li > a,
+.rtl .iepa-megamenu-main-wrapper.iepa-orientation-horizontal ul.iepa-mega-wrapper > li > a {
+	padding: 20px 18px 20px 25px;
+	text-align: right;
+}
+.iepa_enable_rtl .iepa-megamenu-main-wrapper.iepa-orientation-vertical ul li.menu-item-has-children > a:after,
+.rtl .iepa-megamenu-main-wrapper.iepa-orientation-vertical ul li.menu-item-has-children > a:after {
+	left: 10px;
+    right: auto;
+}
+.iepa_enable_rtl .iepa-megamenu-main-wrapper.iepa-orientation-horizontal.iepa-askins-wrapper ul.iepa-mega-wrapper > li > a i.iepa-mega-menu-icon:before,
+.iepa_enable_rtl .iepa-megamenu-main-wrapper.iepa-ctheme-wrapper ul.iepa-mega-wrapper > li > a i.iepa-mega-menu-icon:before,
+.iepa_enable_rtl .iepa-sub-menu-wrap ul li a.iepa-mega-menu-link i,
+.rtl .iepa-megamenu-main-wrapper.iepa-ctheme-wrapper ul.iepa-mega-wrapper > li > a i.iepa-mega-menu-icon:before,
+.rtl .iepa-sub-menu-wrap ul li a.iepa-mega-menu-link i {
+	padding-right: 0;
+	padding-left: 5px;
+}
+.iepa_enable_rtl .iepa-megamenu-main-wrapper.iepa-orientation-horizontal.iepa-askins-wrapper ul.iepa-mega-wrapper > li.menu-item-has-children > a:after,
+.rtl .iepa-megamenu-main-wrapper.iepa-orientation-horizontal.iepa-askins-wrapper ul.iepa-mega-wrapper > li.menu-item-has-children > a:after {
+	right: auto;
+	left: 9px;
+}
+.iepa_enable_rtl .iepa-megamenu-main-wrapper ul.iepa-mega-wrapper li .iepa-sub-menu-wrap,
+.iepa_enable_rtl .iepa_megamenu .iepa-megamenu-main-wrapper ul ul li a,
+.iepa_megamenu ul.iepa-mega-sub-menu li a,
+.rtl .iepa-megamenu-main-wrapper ul.iepa-mega-wrapper li .iepa-sub-menu-wrap,
+.rtl .iepa_megamenu .iepa-megamenu-main-wrapper ul ul li a,
+.rtl ul.iepa-mega-sub-menu li a {
+	text-align: right !important;
+}
+.iepa_enable_rtl .iepa-pro-recent-posts-widget .iepa-recentposts-section .iepa-content-right-section .iepa-comment-number,
+.rtl .iepa-pro-recent-posts-widget .iepa-recentposts-section .iepa-content-right-section .iepa-comment-number {
+	padding-left: 0;
+	padding-right: 15px;
+}
+.iepa_enable_rtl .iepa-pro-recent-posts-widget .iepa-recentposts-section .iepa-content-right-section .iepa-comment-number:before,
+.rtl .iepa-pro-recent-posts-widget .iepa-recentposts-section .iepa-content-right-section .iepa-comment-number:before {
+	left: auto;
+	right: 1px;
+}
+.iepa_enable_rtl .iepa-pro-recent-posts-widget .iepa-recentposts-section .iepa-content-right-section,
+.rtl .iepa-pro-recent-posts-widget .iepa-recentposts-section .iepa-content-right-section {
+	padding: 0 0 15px 15px;
+}
+.iepa_enable_rtl .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_nav_menu li,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_pages li,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_categories li,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_archive li,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_meta li,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_recent_comments li,
+.iepa_enable_rtl .iepa-mega-sub-menu .widget_recent_entries li,
+.rtl .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li,
+.rtl .iepa-mega-sub-menu .widget_nav_menu li,
+.rtl .iepa-mega-sub-menu .widget_pages li,
+.rtl .iepa-mega-sub-menu .widget_categories li,
+.rtl .iepa-mega-sub-menu .widget_archive li,
+.rtl .iepa-mega-sub-menu .widget_meta li,
+.rtl .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a,
+.rtl .iepa-mega-sub-menu .widget_recent_comments li,
+.rtl .iepa-mega-sub-menu .widget_recent_entries li {
+	padding-left: 0;
+	padding-right: 10px;
+}
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_pages li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_categories li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_archive li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_meta li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_recent_comments li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_recent_entries li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_categories li:before,
+.iepa_enable_rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_archive li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_pages li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_categories li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_archive li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_meta li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_recent_comments li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_recent_entries li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_categories li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_archive li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_pages li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_categories li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_archive li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_meta li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_recent_comments li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_recent_entries li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_categories li:before,
+.rtl .iepa-orientation-horizontal .iepa-mega-sub-menu .widget_archive li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_pages li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_categories li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_archive li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_meta li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_recent_comments li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_recent_entries li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_categories li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_archive li:before {
+	left: auto;
+	right: 0;
+}
+.iepa_enable_rtl .iepa-background-image img,
+.rtl .iepa-background-image img {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+}
+.iepa_enable_rtl.woocommerce .iepa-mega-wrapper ul.cart_list li img,
+.iepa_enable_rtl.woocommerce .iepa-mega-wrapper ul.product_list_widget li img,
+.rtl.woocommerce .iepa-mega-wrapper ul.cart_list li img,
+.rtl.woocommerce .iepa-mega-wrapper ul.product_list_widget li img {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+.iepa_enable_rtl .iepa-pro-productlist-wrap .all-product-list li .iepa-second-wrapper .imma-woo-content .price ins,
+.iepa_enable_rtl .imma-recent-product-widget .all-re-product-list li .imma-recentpro-right-section .price ins,
+.iepa_enable_rtl .imma-recent-product-widget .all-re-product-list li .imma-recentpro-right-section .price ins,
+.iepa_enable_rtl .iepa-pro-woo-product-widget ul.all-woo-product-new-layout li .imma-new-layout-bottom-section span.price ins,
+.rtl .iepa-pro-productlist-wrap .all-product-list li .iepa-second-wrapper .imma-woo-content .price ins,
+.rtl .imma-recent-product-widget .all-re-product-list li .imma-recentpro-right-section .price ins,
+.rtl .imma-recent-product-widget .all-re-product-list li .imma-recentpro-right-section .price ins,
+.rtl .iepa-pro-woo-product-widget ul.all-woo-product-new-layout li .imma-new-layout-bottom-section span.price ins {
+	float: none;
+}
+.iepa_enable_rtl .iepa-pro-productlist-wrap .all-product-list li .iepa-second-wrapper .imma-woo-content .star-rating,
+.iepa_enable_rtl .iepa-pro-woo-product-widget ul.all-woo-product-new-layout li .imma-new-layout-bottom-section .star-rating,
+.rtl .iepa-pro-productlist-wrap .all-product-list li .iepa-second-wrapper .imma-woo-content .star-rating,
+.rtl .iepa-pro-woo-product-widget ul.all-woo-product-new-layout li .imma-new-layout-bottom-section .star-rating {
+	width: 5.4em;
+	float: none;
+}
+.iepa_enable_rtl .iepa-orientation-vertical ul.iepa-mega-wrapper > li > a i.iepa-mega-menu-icon,
+.rtl .iepa-orientation-vertical ul.iepa-mega-wrapper > li > a i.iepa-mega-menu-icon {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.iepa_enable_rtl .iepa-orientation-vertical ul.iepa-mega-wrapper > li > a.iepa-mega-menu-link,
+.rtl .iepa-orientation-vertical ul.iepa-mega-wrapper > li > a.iepa-mega-menu-link {
+	padding: 12px 15px 12px 15px;
+}
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_pages li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_meta li:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-sub-menu-wrapper.iepa-menu1 .iepa-mega-sub-menu li a span.iepa-mega-menu-href-title:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a:before,
+.iepa_enable_rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_recent_comments li:before,
+.iepa_enable_rtl .iepa-orientation-vertical  .iepa-mega-sub-menu .widget_recent_entries li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu li .iepa-sub-menu-wrapper.iepa_menu_1 li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_pages li:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_meta li:before,
+.rtl .iepa-orientation-vertical .iepa-sub-menu-wrapper.iepa-menu1 .iepa-mega-sub-menu li a span.iepa-mega-menu-href-title:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_product_categories ul.product-categories li a:before,
+.rtl .iepa-orientation-vertical .iepa-mega-sub-menu .widget_recent_comments li:before,
+.rtl .iepa-orientation-vertical  .iepa-mega-sub-menu .widget_recent_entries li:before {
+	-webkit-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
+}
+.iepa_enable_rtl ul.iepa-mega-wrapper li.iepamega-menu-flyout ul.iepa-mega-sub-menu > li > a,
+.rtl ul.iepa-mega-wrapper li.iepamega-menu-flyout ul.iepa-mega-sub-menu > li > a {
+	padding-right: 20px;
+}

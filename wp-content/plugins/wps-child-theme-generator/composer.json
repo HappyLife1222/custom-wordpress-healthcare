@@ -1,0 +1,23 @@
+{
+  "name":"wpserveur/wps-child-theme-generator",
+  "description":"Create your child theme with options. Customize it many options.",
+  "keywords":[
+    "theme",
+    "child"
+  ],
+  "homepage":"https://www.wpserveur.net/",
+  "authors":[
+    {
+      "name":"WPServeur",
+      "email":"nicolas@wpserveur.net",
+      "homepage":"https://www.wpserveur.net/",
+      "role": "Lead Developer"
+    }
+  ],
+  "type":"wordpress-plugin",
+  "minimum-stability":"stable",
+  "license":"GPL-3.0+",
+  "require":{
+    "php":">=5.6.0"
+  }
+}

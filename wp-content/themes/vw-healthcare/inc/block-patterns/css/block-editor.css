@@ -1,0 +1,91 @@
+.banner-section h1, .banner-section p, .specialize-section h2, .specialize-section p:first-child{
+  font-family: 'Exo 2', sans-serif;
+}
+.banner-section .wp-block-button__link, .specialize-section .wp-block-button__link{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.specialize-section h2, .banner-section h1, .banner-section p{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.banner-section .block-editor-rich-text__editable.wp-block-button__link:hover, .specialize-section .block-editor-rich-text__editable.wp-block-button__link:hover{
+  background: #2cd7bd !important;
+  color: #00386c !important;
+}
+.banner-section{
+  min-height: 600px;
+}
+/*Banner section*/
+.banner-section p{
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0 !important;
+}
+.banner-section .wp-block-button__link{
+  font-size: 15px !important;
+  padding: 10px 20px !important;
+  font-weight: 500 !important;
+}
+.banner-section .wp-block-button__link:hover{
+  background: #5191cd !important;
+}
+
+/*Best Deal section*/
+.specialize-section .wp-block-columns{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.specialize-section h2{
+  font-weight: 700;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.specialize-section p:first-child{
+  font-weight: 600;
+  margin-bottom: 10px !important;
+  margin-bottom: 0 !important;
+}
+.specialize-section .wp-block-button{
+  background: #f4f8f9;
+  padding: 0 20px;
+  margin-bottom: 0 !important;
+}
+.specialize-section .wp-block-separator{
+  border-top: 4px solid #e1dedf;
+  position: relative;
+  margin-top: -50px;
+  opacity: 1;
+  max-width: 100% !important;
+  z-index: -1;
+  margin-bottom: 50px !important;
+  border-bottom: 0;
+}
+.specialize-section img {
+  border: 10px solid #f4f8f9;
+  border-radius: 50%;
+}
+.specialize-box{
+  background: #fff;
+}
+.specialize-box:hover{
+  background: #5191cd;
+}
+.specialize-box:hover h3, .specialize-box:hover p{
+  color: #fff !important;
+}
+.specialize-box h3{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-weight: 600;
+}
+.specialize-box .wp-block-image{
+  margin-bottom: -75px !important;
+}
+.specialize-section .wp-block-button__link{
+  background: #00356c !important;
+  font-size: 15px !important;
+  padding: 10px 20px !important;
+  border-radius: 30px;  
+}

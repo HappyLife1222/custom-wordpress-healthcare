@@ -1,0 +1,92 @@
+/************************************************************
+				Box Sizing
+************************************************************/
+.sfwppa-navi-style *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
+
+/************************************************************
+				Common css
+************************************************************/
+.sfwppa-navi-style .navigation, .sfwppa-navi-style .sfwppa-pages, .sfwppa-navi-style .current{line-height:normal !important; -webkit-transition-duration: 0.4s;  transition-duration: 0.4s;}
+.sfwppa-navi-style .navigation a, .sfwppa-navi-style .sfwppa-pages{text-decoration:none; -webkit-transition-duration: 0.4s;  transition-duration: 0.4s;}
+.sfwppa-style-5 a.sfwppa-pages:last-child{border-right:0px !important;}
+/************************************************************
+				Style-1
+************************************************************/
+.sfwppa-navi-style.sfwppa-style-1 .sfwppa-pages, .sfwppa-navi-style.sfwppa-style-1 .current, 
+.sfwppa-navi-style.sfwppa-style-1 .nav-links .page-numbers{font-size: 13px;text-align: center; padding:10px 15px; margin-right: 3px; color:#000; border: 1px solid #ddd; display: inline-block;}
+.sfwppa-navi-style.sfwppa-style-1 .current, .sfwppa-navi-style.sfwppa-style-1 .sfwppa-pages:hover, .sfwppa-navi-style.sfwppa-style-1 .nav-links .page-numbers:hover { background: #dd3333;  border: 1px solid #dd3333; color:#fff;}
+
+/************************************************************
+				Style-2
+************************************************************/
+.sfwppa-navi-style.sfwppa-style-2 span.sfwppa-pages, .sfwppa-navi-style.sfwppa-style-2 .nav-links .prev, .sfwppa-navi-style.sfwppa-style-2 .nav-links .next{border-width:0px !important ; color:#000 ;}
+.sfwppa-navi-style.sfwppa-style-2 .nav-links .prev:hover, .sfwppa-navi-style.sfwppa-style-2 .nav-links .next:hover{color:#dd3333; background:none !important; border:0px !important;}
+.sfwppa-navi-style.sfwppa-style-2 .sfwppa-link, 
+.sfwppa-navi-style.sfwppa-style-2 .page-numbers,
+.sfwppa-navi-style.sfwppa-style-2 .sfwppa-current-page,
+.sfwppa-navi-style.sfwppa-style-2 .current,
+.sfwppa-navi-style.sfwppa-style-2 a.sfwppa-pages,
+.sfwppa-navi-style.sfwppa-style-2 span.sfwppa-pages.sfwppa-extend
+{font-size: 13px;text-align: center; padding:10px 15px; margin-right: 3px; color:#000; display:inline-block; border: 1px solid #ddd;}
+.sfwppa-navi-style.sfwppa-style-2 span.sfwppa-pages.sfwppa-extend{border-width:1px !important;}
+.sfwppa-navi-style.sfwppa-style-2 .current, 
+.sfwppa-navi-style.sfwppa-style-2 .sfwppa-link:hover,
+.sfwppa-navi-style.sfwppa-style-2 .sfwppa-current-page:hover,
+.sfwppa-navi-style.sfwppa-style-2 a.sfwppa-pages:hover,
+.sfwppa-navi-style.sfwppa-style-2 span.sfwppa-pages.sfwppa-extend:hover { background: #dd3333;  border: 1px solid #dd3333; color:#fff;}
+
+/************************************************************
+				Style-3
+************************************************************/
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-pages, .sfwppa-navi-style.sfwppa-style-3 .nav-links .prev, .sfwppa-navi-style.sfwppa-style-3 .nav-links .next{border:0px ; color:#000 ; width:auto; height:auto; padding:10px; font-size: 12px;}
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-first:hover, .sfwppa-navi-style.sfwppa-style-3 .sfwppa-last:hover,
+.sfwppa-navi-style.sfwppa-style-3 .nav-links .prev:hover, .sfwppa-navi-style.sfwppa-style-3 .nav-links .next:hover{color:#dd3333;  background:none !important; border:0px !important;}
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-link,
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-current-page,
+.sfwppa-navi-style.sfwppa-style-3 .current,
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-extend,
+.sfwppa-navi-style.sfwppa-style-3 .page-numbers
+{border-radius:50%; width:35px; height:35px;font-size: 12px;text-align: center; padding:10px 0; margin-right: 5px; color:#000; display:inline-block; }
+.sfwppa-navi-style.sfwppa-style-3 .current, 
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-link:hover,
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-current-page:hover,
+.sfwppa-navi-style.sfwppa-style-3 .sfwppa-extend:hover { background: #dd3333;  color:#fff;}
+
+/************************************************************
+				Style-4
+************************************************************/
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-pages, .sfwppa-navi-style.sfwppa-style-4 .nav-links .prev, .sfwppa-navi-style.sfwppa-style-4 .nav-links .next{border:0px ; color:#000 ; width:auto; height:auto; padding:10px; font-size: 12px;}
+.sfwppa-navi-style.sfwppa-style-4 .nav-links .prev:hover, .sfwppa-navi-style.sfwppa-style-4 .nav-links .next:hover,
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-first:hover, .sfwppa-navi-style.sfwppa-style-4 .sfwppa-last:hover{color:#dd3333; background:none !important; border:0px !important;}
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-link,
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-current-page,
+.sfwppa-navi-style.sfwppa-style-4 .current,
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-pages.sfwppa-extend,
+.sfwppa-navi-style.sfwppa-style-4 .page-numbers
+{border-radius:50%; width:35px; height:35px;font-size: 12px;text-align: center; padding:10px 0; margin-right: 5px; color:#000; display:inline-block; border: 1px solid #ddd;}
+.sfwppa-navi-style.sfwppa-style-4 .current, 
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-link:hover,
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-current-page:hover,
+.sfwppa-navi-style.sfwppa-style-4 .sfwppa-extend:hover { background: #dd3333;  border: 1px solid #dd3333; color:#fff;}
+
+/************************************************************
+				Style-5
+************************************************************/
+
+.sfwppa-navi-style.sfwppa-style-5 .nav-links, .sfwppa-navi-style.sfwppa-style-5 .wp-pagenavi{border:1px solid #e6e6e6; display: inline-block; margin:0px;border-radius: 0.25em; }
+.sfwppa-navi-style.sfwppa-style-5 span.sfwppa-pages, .sfwppa-navi-style.sfwppa-style-5 .sfwppa-last, .sfwppa-navi-style.sfwppa-style-5 .sfwppa-first{border:0px}
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-link,
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-current-page,
+.sfwppa-navi-style.sfwppa-style-5 .current,
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-extend,
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-pages,
+.sfwppa-navi-style.sfwppa-style-5 .page-numbers{padding: .8em 1em; border:0px;  color:#000; border-right: 1px solid #e6e6e6; display: inline-block; margin:0px; }
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-link-previous{ border-left: 1px solid #e6e6e6;}
+.sfwppa-navi-style.sfwppa-style-5 .current, 
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-link:hover,
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-current-page:hover,
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-extend:hover,
+.sfwppa-navi-style.sfwppa-style-5 a.page-numbers:hover { background: #fa4248; color:#fff;  border-right: 1px solid #fff;}
+.sfwppa-navi-style.sfwppa-style-5 .page-numbers:last-child, .sfwppa-navi-style.sfwppa-style-5 .page-numbers:hover:last-child{border-right:0px !important;}
+.sfwppa-navi-style.sfwppa-style-5 .page-numbers{float:left;}
+.sfwppa-navi-style.sfwppa-style-5 .sfwppa-first{border-right:0px !important;}

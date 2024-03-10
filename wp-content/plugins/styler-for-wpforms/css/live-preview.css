@@ -1,0 +1,73 @@
+.wpforms-container .customize-partial-edit-shortcut button {
+    left: -28px;
+}
+
+.sfwf-partial-formwrapper-shortcut .customize-partial-edit-shortcut-button {
+    top: -30px;
+}
+
+.sfwf-partial-formheader-shortcut .customize-partial-edit-shortcut-button {
+    left: -70px;
+}
+
+.wpforms-container .customize-partial-edit-shortcut-button {
+    cursor: pointer !important;
+}
+
+.wpforms-container .gfield input {
+    cursor: default !important;
+}
+
+.wpforms-container .customize-partial-edit-shortcut:not(.sfwf-partial-formwrapper-shortcut){
+	display: none ;
+}
+
+.wpforms-container .sfwf-selected-field {
+    outline: 2px dashed rgba(0, 0, 0, .25) !important;
+}
+
+div.wpforms-container .wpforms-form .customize-partial-edit-shortcut button,
+.widget .customize-partial-edit-shortcut button {
+    position: absolute;
+    left: -30px;
+    top: 2px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    line-height: 1em !important;
+    font-size: 18px;
+    z-index: 5;
+    background: #0085ba !important;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 1px rgba(46, 68, 83, .15);
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 3px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    opacity: 0;
+    pointer-events: auto;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+div.wpforms-container .wpforms-form .customize-partial-edit-shortcut,
+.widget .customize-partial-edit-shortcut {
+    position: absolute;
+    float: left;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px 0 0 -1px;
+    border: 0;
+    background: 0 0;
+    color: transparent;
+    box-shadow: none;
+    outline: 0;
+    z-index: 5;
+}

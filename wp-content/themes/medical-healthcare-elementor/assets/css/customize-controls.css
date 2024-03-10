@@ -1,0 +1,31 @@
+.control-section-medical-healthcare-elementor h3.accordion-section-title {
+  line-height: 30px;
+}
+#customize-theme-controls .control-panel-themes > .accordion-section-title,
+#customize-theme-controls
+  .control-panel-themes
+  > .accordion-section-title:hover {
+  margin: 0;
+}
+.control-section-medical-healthcare-elementor h3.accordion-section-title a {
+  float: right;
+}
+li#customize-control-medical_healthcare_elementor_phone button,
+li#customize-control-medical_healthcare_elementor_opening_time button {
+  display: none;
+}
+#accordion-section-medical_healthcare_elementor_upgrade_pro h3 a{
+  background:#f89300 ;
+  border-color: #f89300;
+  outline-color:#f89300 !important;
+}
+#accordion-section-medical_healthcare_elementor_upgrade_pro h3 {
+  color: #50575e !important;
+  background-color: #fff !important;
+}
+#accordion-section-medical_healthcare_elementor_upgrade_pro h3 a:hover{
+  background: #dc8200;
+  border-color: #dc8200;
+  outline-color:#f89300 !important;
+}
+

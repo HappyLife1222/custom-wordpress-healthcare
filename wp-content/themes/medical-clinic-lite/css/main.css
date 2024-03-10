@@ -1,0 +1,196 @@
+/**
+ * Styling for the admin page
+ *
+ * @package Medical Clinic Lite
+ */
+
+ #lefty  {
+  display: block;
+  float: left;
+  width: calc(100% - 450px);
+  padding: 0 15px;
+}
+#description {
+  margin: 0 auto;
+  line-height: 2;
+  background: #FFF;
+  padding: 2em;
+}
+#description-insidee {
+  overflow-y: auto;
+  max-height: 400px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+#description h3 span {
+  font-weight: normal;
+  font-size: 15px;
+}
+#description h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+#righty {
+  display: block;
+  float: left;
+  width: 359px;
+}
+.postboxx .insidee{
+  padding: 0;
+}
+.postboxx {
+  width: 100%;
+  padding: 1em;
+  border-radius: 0;
+  box-shadow: none;
+  background: rgba(255, 255, 255, .5);
+}
+#admin_pro_links, #admin_pro_linkss {
+  display: inline-block;
+  width: 100%;
+}
+
+/*Admin notice*/
+.medical-clinic-lite-notice-wrapper.notice {
+  padding: 10px !important;
+  border-left: 1px solid #c3c4c7;
+}
+.medical-clinic-lite-notice-wrapper.notice .notice-dismiss {
+  top: 5px;
+  right: 5px;
+}
+.medical-clinic-lite-notice {
+  display: flex;
+  align-items: center;
+  background: #f9f8ff;
+  padding: 20px;
+}
+.medical-clinic-lite-notice a {
+  color: #f56e28;
+  font-weight: 600;
+}
+.medical-clinic-lite-notice .medical-clinic-lite-notice-img {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+.medical-clinic-lite-notice .medical-clinic-lite-notice-img img {
+  max-width: 140px;
+}
+.medical-clinic-lite-notice .medical-clinic-lite-notice-content {
+  flex-basis: 100%;
+}
+.medical-clinic-lite-notice .medical-clinic-lite-notice-heading {
+  font-size: 18px;
+}
+
+/* ADMIN HEADER AND LINKS */
+
+#admin_links {
+  overflow: hidden;
+}
+#admin_links a,#admin_pro_links a,#admin_linkss a,#admin_pro_linkss a {
+  display: inline-block;
+  float: left;
+  width: 33.333%;
+  width: calc(100% / 4);
+  padding: 1em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  transition: .3s all;
+}
+#admin_pro_links a {
+  width: calc(100% / 3);
+  padding: 15px 10px;
+}
+
+#admin_pro_linkss a {
+  width: calc(100% / 1);
+  padding: 15px 10px;
+}
+
+a.blue-button-1, #admin_links a:hover, a.blue-button-2:hover {
+  background-image: linear-gradient(96deg, #f0ac0e 0%, #ff7426 100%);
+}
+a#customizer, a.blue-button-2 {
+  background-image: linear-gradient(96deg, #6254e7 0%, #9289f1 100%);
+}
+a.blue-button-1:hover{
+  background-image: linear-gradient(96deg, #6254e7 0%, #9289f1 100%) !important;
+}
+span.dashicons.dashicons-no,span.dashicons.dashicons-yes {
+  color: red;
+  font-size: 27px;
+  margin: 0px;
+}
+span.dashicons.dashicons-yes{
+  color: green;
+}
+
+/* New Table CSS */
+
+.d-table {
+  min-width: 300px;
+  min-height: 300px;
+  display: block;
+  width: 1px solid red;
+}
+.d-table ul {
+  list-style-type: none;
+  border-bottom: 1px solid #eeeeee;
+}
+.d-column li {
+  padding: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+}
+.d-row li {
+  padding: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+}
+li.feature {
+  font-weight: bold;
+  color: #000 !important;
+}
+li.free, li.plus {
+  float: right;
+  font-weight: bold;
+  color: #000 !important;
+}
+li.wrong, li.right {
+  float: right;
+}
+li.points {
+  width: 70%;
+}
+
+.insidee.theme-bundle, .hndle, .insidee p {
+    text-align: center;
+}
+p.offer{
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
+.coupon-code{
+  color: green;
+  font-size: 15px;
+  font-weight: 600;
+}
+h3.hndle.bundle, .hndle {
+  text-align: center;
+  font-size: 20px;
+}
+ul.d-column {
+    margin-top: 25px;
+}

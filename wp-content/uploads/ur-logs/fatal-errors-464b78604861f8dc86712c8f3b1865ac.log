@@ -1,0 +1,258 @@
+2024-02-21T15:26:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_logged_in_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\404.php(8): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:26:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_logged_in_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\index.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:26:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_logged_in_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\index.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:26:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_logged_in_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\404.php(8): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:26:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_logged_in_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\page.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:27:34+00:00 CRITICAL Uncaught Error: Call to undefined function get_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\page.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:27:38+00:00 CRITICAL Uncaught Error: Call to undefined function get_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\page.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:27:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_user_account_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:78
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\page.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 78
+
+2024-02-21T15:32:00+00:00 CRITICAL Uncaught Error: Call to undefined function profile_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:79
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\page.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 79
+
+2024-02-21T15:33:42+00:00 CRITICAL Uncaught Error: Call to undefined function profile_url() in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php:80
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\task\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\header.php(33): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\task\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\task\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\page.php(13): get_header()
+#8 C:\xampp\htdocs\task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\template-parts\header\middle-header.php on line 80
+
+2024-02-21T16:26:24+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "vw_healthcare_Customize_partial_vw_healthcare_footer_text" not found or invalid function name in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php:222
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\task\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php on line 222
+
+2024-02-21T16:26:26+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "vw_healthcare_Customize_partial_vw_healthcare_footer_text" not found or invalid function name in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php:222
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\task\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php on line 222
+
+2024-02-21T16:54:02+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "vw_healthcare_Customize_partial_vw_healthcare_related_post_title" not found or invalid function name in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php:222
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-selective-refresh.php(369): WP_Customize_Partial->render(NULL)
+#1 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\task\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php on line 222
+
+2024-02-21T16:54:04+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "vw_healthcare_Customize_partial_vw_healthcare_related_post_title" not found or invalid function name in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php:222
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-selective-refresh.php(369): WP_Customize_Partial->render(NULL)
+#1 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\task\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\task\wp-includes\customize\class-wp-customize-partial.php on line 222
+
+2024-02-22T12:52:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\task\wp-includes\Requests\src\Transport\Curl.php on line 534
+
+2024-02-22T13:01:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\task\wp-includes\Requests\src\Transport\Curl.php on line 534
+
+2024-02-24T02:59:46+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(2008): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1073): WC_Payments_Account->redirect_to_onboarding_flow_page('wcadmin-incenti...')
+#3 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\task\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+
+2024-02-24T03:00:14+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(2008): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1073): WC_Payments_Account->redirect_to_onboarding_flow_page('wcadmin-incenti...')
+#3 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\task\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+
+2024-02-24T03:01:20+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(2008): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1073): WC_Payments_Account->redirect_to_onboarding_flow_page('wcadmin-incenti...')
+#3 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\xampp\htdocs\task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\task\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown in C:\xampp\htdocs\task\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+
+2024-02-24T13:01:03+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\functions.php on line 585
+
+2024-02-24T13:13:45+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\functions.php on line 585
+
+2024-02-24T13:13:45+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\functions.php on line 585
+
+2024-02-24T13:14:24+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\functions.php on line 585
+
+2024-02-24T13:14:27+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\task\wp-content\themes\vw-healthcare\functions.php on line 585
+

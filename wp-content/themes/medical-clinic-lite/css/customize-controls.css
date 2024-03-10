@@ -1,0 +1,21 @@
+.control-section-medical-clinic-lite h3.accordion-section-title {
+  font-size: 18px !important;
+  color: #1d2327 !important;
+  background: #f6f7f7 !important;
+  border: 1px solid #dcdcde !important;
+  border-left: solid 5px #2271b1 !important;
+}
+span.customize-action {
+  display: block;
+  color: #636363 !important;
+  font-size: 12px !important;
+  margin: 12px 0;
+  font-weight: normal !important;
+}
+#customize-theme-controls .control-panel-themes>.accordion-section-title, 
+#customize-theme-controls .control-panel-themes>.accordion-section-title:hover{
+  margin: 0;
+}
+a.button.button-primary{
+  margin: 4px;
+}

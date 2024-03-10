@@ -1,0 +1,7 @@
+.sanpop-pro-img-view{max-width: 150px;}
+.sanpop-pro-img-view img{
+	padding: 5px;
+	margin: 5px 0;
+	max-width: 150px;
+	border: 1px solid #ccc;
+}

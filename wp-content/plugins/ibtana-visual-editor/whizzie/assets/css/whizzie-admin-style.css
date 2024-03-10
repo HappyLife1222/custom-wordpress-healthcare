@@ -1,0 +1,162 @@
+.step-done {
+	height: 0%!important;
+}
+.step-done > h2 {
+	color: black;
+	font-size: 2.2rem;
+	font-weight: bolder;
+}
+.step-widgets {
+	height: 0%!important;
+}
+.step-widgets > h2 {
+	color: black;
+	font-size: 2.2rem;
+	font-weight: bolder;
+}
+.step-widgets > div > h3 {
+	color: black;
+	font-size: 1.2rem;
+}
+.step-intro > h2 {
+	color: black;
+	font-size: 2.2rem;
+	font-weight: bolder;
+}
+.summary > p {
+	color: black;
+	font-size: 1.2rem;
+}
+.ibtana-button-wrap > a {
+	width: 100%;
+	font-size: 1.2rem!important;
+	margin: 30px 0!important;
+}
+.ibtana-whizzie-wrap {
+	opacity: 0;
+	position: relative;
+	margin: auto;
+	padding: 5% 4%;
+	background-color: white;
+	border-radius: 1rem;
+}
+.ibtana-whizzie-wrap.loaded {
+	opacity: 1;
+}
+.ibtana-whizzie-wrap.ibtana-spinning .step-loading {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255,0.8);
+}
+.ibtana-spinning .step-loading .spinner {
+	float: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	visibility: visible;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.ibtana-spinning a.do-it {
+	visibility: hidden;
+}
+.ibtana-whizzie-menu li.step {
+	visibility: hidden;
+}
+.ibtana-whizzie-menu li.active-step {
+	visibility: visible;
+}
+.loaded .ibtana-whizzie-menu li.step {
+	visibility: visible;
+	display: none;
+}
+.loaded .ibtana-whizzie-menu li.active-step {
+	display: list-item;
+}
+.ibtana-spinning .spinner {
+	visibility: visible;
+	float: none;
+	text-align: center;
+}
+.ibtana-button-wrap {
+	display: inline-block;
+	margin: 0 2%;
+	width: 20%;
+}
+/* .detail {
+	display: none;
+	opacity: 0;
+	transition: all 1s;
+} */
+.ibtana-show-detail .detail {
+	display: block;
+	opacity: 1;
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: all 0.5s;
+}
+.detail.ibtana-scale-down {
+	transform: scaleY(0);
+}
+.ibtana-whizzie-menu .detail ul {
+	margin: 1em 0;
+}
+a.ibtana-more-info {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ccc;
+}
+a.ibtana-more-info:after {
+	font-family: Dashicons;
+	content: "\f347";
+	padding-left: 0.25em;
+	vertical-align: middle;
+}
+ul.ibtana-whizzie-do-plugins li {
+	padding: 0.5em 1em;
+}
+ul.ibtana-whizzie-do-plugins li:nth-child(odd) {
+	background: #f9f9f9;
+}
+ul.ibtana-whizzie-do-plugins li span {
+	float: right;
+}
+ul.ibtana-whizzie-nav {
+	list-style: none;
+	display: -webkit-flex;
+	display: webkit-flex;
+	justify-content: space-around;
+}
+ul.ibtana-whizzie-nav li {
+	opacity: 1;
+	transition: all 0.25s;
+}
+ul.ibtana-whizzie-nav li.active-step {
+	color: #0073aa;
+}
+ul.ibtana-whizzie-nav li.done-step {
+	opacity: 0.5;
+}
+ul.ibtana-whizzie-nav .dashicons {
+	font-size: 2em;
+}
+.step-widgets .button-wrap {
+    display: inline-block;
+    margin: 10px;
+}
+.step-widgets .button-primary{
+	background: unset;
+	padding: 15px 15px 8px;
+}
+p.demo-type-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+.step-widgets .button-primary:hover{
+	background: #F0F0F1
+;
+}

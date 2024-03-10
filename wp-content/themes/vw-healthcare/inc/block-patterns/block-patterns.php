@@ -1,0 +1,41 @@
+<?php
+/**
+ * VW Healthcare: Block Patterns
+ *
+ * @package VW Healthcare
+ * @since   1.0.0
+ */
+
+/**
+ * Register Block Pattern Category.
+ */
+if ( function_exists( 'register_block_pattern_category' ) ) {
+
+	register_block_pattern_category(
+		'vw-healthcare',
+		array( 'label' => __( 'VW Healthcare', 'vw-healthcare' ) )
+	);
+}
+
+/**
+ * Register Block Patterns.
+ */
+if ( function_exists( 'register_block_pattern' ) ) {
+	register_block_pattern(
+		'vw-healthcare/banner-section',
+		array(
+			'title'      => __( 'Banner Section', 'vw-healthcare' ),
+			'categories' => array( 'vw-healthcare' ),
+			'content'    => "<!-- wp:cover {\"url\":\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/banner.png\",\"id\":1115,\"dimRatio\":70,\"customOverlayColor\":\"#2cd7bd\",\"align\":\"full\",\"className\":\"banner-section px-5\"} -->\n<div class=\"wp-block-cover alignfull has-background-dim-70 has-background-dim banner-section px-5\" style=\"background-color:#2cd7bd\"><img class=\"wp-block-cover__image-background wp-image-1115\" alt=\"\" src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/banner.png\" data-object-fit=\"cover\"/><div class=\"wp-block-cover__inner-container\"><!-- wp:columns {\"align\":\"wide\",\"className\":\"mx-lg-5 mx-0\"} -->\n<div class=\"wp-block-columns alignwide mx-lg-5 mx-0\"><!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"60%\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:60%\"><!-- wp:paragraph {\"style\":{\"typography\":{\"fontSize\":15},\"color\":{\"text\":\"#4e4b4b\"}}} -->\n<p class=\"has-text-color\" style=\"color:#4e4b4b;font-size:15px\">Emergency: 9874563210</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":1,\"style\":{\"typography\":{\"fontSize\":50},\"color\":{\"text\":\"#121212\"}},\"className\":\"mb-3\"} -->\n<h1 class=\"mb-3 has-text-color\" style=\"color:#121212;font-size:50px\">Personal Care For Your Healthy Living</h1>\n<!-- /wp:heading -->\n\n<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"borderRadius\":30,\"style\":{\"color\":{\"background\":\"#00356c\"}},\"textColor\":\"white\"} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link has-white-color has-text-color has-background\" style=\"border-radius:30px;background-color:#00356c\">Read More</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":1116,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/doctor-image.png\" alt=\"\" class=\"wp-image-1116\"/></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div></div>\n<!-- /wp:cover -->",
+		)
+	);
+
+	register_block_pattern(
+		'vw-healthcare/services-section',
+		array(
+			'title'      => __( 'Services Section', 'vw-healthcare' ),
+			'categories' => array( 'vw-healthcare' ),
+			'content'    => "<!-- wp:cover {\"customOverlayColor\":\"#f4f8f9\",\"align\":\"full\",\"className\":\"specialize-section p-5\"} -->\n<div class=\"wp-block-cover alignfull has-background-dim specialize-section p-5\" style=\"background-color:#f4f8f9\"><div class=\"wp-block-cover__inner-container\"><!-- wp:paragraph {\"style\":{\"color\":{\"text\":\"#121212\"},\"typography\":{\"fontSize\":15}},\"className\":\"text-center\"} -->\n<p class=\"text-center has-text-color\" style=\"color:#121212;font-size:15px\">Our Speciality</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"style\":{\"typography\":{\"fontSize\":45},\"color\":{\"text\":\"#121212\"}},\"className\":\"text-center\"} -->\n<h2 class=\"text-center has-text-color\" style=\"color:#121212;font-size:45px\">We Specialize In</h2>\n<!-- /wp:heading -->\n\n<!-- wp:buttons {\"contentJustification\":\"center\"} -->\n<div class=\"wp-block-buttons is-content-justification-center\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#00356c\"}},\"textColor\":\"white\"} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link has-white-color has-text-color has-background\" style=\"background-color:#00356c\">View All Speciality</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons -->\n\n<!-- wp:separator {\"align\":\"center\",\"className\":\"is-style-wide mx-lg-5\"} -->\n<hr class=\"wp-block-separator aligncenter is-style-wide mx-lg-5\"/>\n<!-- /wp:separator -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"mx-lg-5 mx-0 mt-4\"} -->\n<div class=\"wp-block-columns alignwide mx-lg-5 mx-0 mt-4\"><!-- wp:column {\"className\":\"specialize-box mb-5 p-3\"} -->\n<div class=\"wp-block-column specialize-box mb-5 p-3\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"typography\":{\"fontSize\":22},\"color\":{\"text\":\"#121212\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#121212;font-size:22px\">Pediatrics</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"fontSize\":14},\"color\":{\"text\":\"#0f0f0f\"}}} -->\n<p class=\"has-text-align-center has-text-color\" style=\"color:#0f0f0f;font-size:14px\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"align\":\"center\",\"id\":1117,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"is-style-rounded mb-0\"} -->\n<div class=\"wp-block-image is-style-rounded mb-0\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/image1.png\" alt=\"\" class=\"wp-image-1117\"/></figure></div>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"specialize-box mb-5 p-3\"} -->\n<div class=\"wp-block-column specialize-box mb-5 p-3\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"typography\":{\"fontSize\":22},\"color\":{\"text\":\"#121212\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#121212;font-size:22px\">Oncologist</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"fontSize\":14},\"color\":{\"text\":\"#0f0f0f\"}}} -->\n<p class=\"has-text-align-center has-text-color\" style=\"color:#0f0f0f;font-size:14px\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"align\":\"center\",\"id\":1119,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"is-style-rounded mb-0\"} -->\n<div class=\"wp-block-image is-style-rounded mb-0\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/image2.png\" alt=\"\" class=\"wp-image-1119\"/></figure></div>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"specialize-box mb-5 p-3\"} -->\n<div class=\"wp-block-column specialize-box mb-5 p-3\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"typography\":{\"fontSize\":22},\"color\":{\"text\":\"#121212\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#121212;font-size:22px\">Opthalmologist</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"fontSize\":14},\"color\":{\"text\":\"#0f0f0f\"}}} -->\n<p class=\"has-text-align-center has-text-color\" style=\"color:#0f0f0f;font-size:14px\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"align\":\"center\",\"id\":1118,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"is-style-rounded mb-0\"} -->\n<div class=\"wp-block-image is-style-rounded mb-0\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/image3.png\" alt=\"\" class=\"wp-image-1118\"/></figure></div>\n<!-- /wp:image --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover -->",
+		)
+	);
+}

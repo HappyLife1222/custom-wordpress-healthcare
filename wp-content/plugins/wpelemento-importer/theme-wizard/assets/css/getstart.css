@@ -1,0 +1,206 @@
+/*About theme*/
+#wpwrap{
+    font-family: 'Muli', sans-serif;
+}
+b{
+    font-weight: 700;
+}
+/* .wrapper-info {
+    margin-top: 20px;
+} */
+.col-left{
+	width: 65%;
+}
+.wrapper-info .wee-wizard-main-title{
+  color: #000;
+  font-size: 24px;
+  margin: 15px 0;
+  font-weight: bold;
+  text-align: center;
+}
+span.version {
+    font-size: 15px;
+    color: #333;
+}
+.dashboard-install-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #004c75;
+}
+.logo {
+    margin: 5px 0;
+}
+.col-left p {
+    font-size: 15px;
+    color: #333;
+}
+img{
+    margin-bottom: 2px;
+    max-width: 100%;
+}
+li{
+    margin-top: 15px;
+    margin-top: 15px;
+    list-style: none;
+}
+.strong{
+    font-weight: bold;
+}
+#wpwrap {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+figure{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ol{
+    display: block;
+    margin-right: 10px;
+}
+/*Tab Button*/
+.wee-tab button {
+  border: none;
+  padding: 15px;
+  background-color: #febe00;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #000;
+}
+.wee-tab-sec h3 {
+    color: #004c75;
+    font-size: 19px;
+    margin:0 10px 0 0;
+    line-height: 30px;
+}
+.wee-tab-sec p {
+    font-size: 16px;
+    color: #333;
+}
+.col-right-inner {
+    width: 50%;
+    float: right;
+    padding: 0 20px;
+}
+.col-left-inner {
+    width: 42%;
+    float: left;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 12px #e1e1e1;
+}
+.col-right-inner img {
+    width: 100%;
+}
+.col-left-inner h4,
+.update-now h4,
+.col-3 h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.col-left-inner p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+.info-link a,
+.col-left-pro a{
+    background: linear-gradient(#6ccef5,#56c7bf);
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.theme-offer {
+    clear: both;
+    margin: 50px 0 15px 0;
+    text-align: center;
+}
+.info-link a:hover,
+.col-left-pro a:hover,
+td.update-link:hover{
+    background: #0771ab;
+}
+.info-link {
+    margin: 20px 0;
+}
+.col-right .info-link,
+.logo{
+    text-align: center;
+}
+button.tablinks:focus {
+    outline: none;
+}
+.wee-tabcontent {
+    display: none;
+}
+.open {
+    display: block ;
+}
+.tab-sec {
+    width: 100%;
+}
+/* Our theme tab */
+.info-link .dashicons {
+    margin-right: 6px;
+}
+/* added install theme page css*/
+.multiple-home-page-imports .themes-name{
+	font-size: 18px;
+	color:#1d2327;
+}
+.multiple-home-page-imports .button-wrap img{
+	width: 70%;
+	box-shadow: 0px 0px 1px 0px #2271b1;
+}
+.multiple-home-page-imports .button-wrap a{
+	padding: 20px;
+}
+.multiple-home-page-imports {
+	display: flex;
+	justify-content: space-around;
+}
+.multiple-home-page-imports .button-wrap{
+	width: 40%;
+}
+.multiple-home-page-imports .button-wrap a{
+	background:none;
+	border-color: unset;
+	box-shadow: 0px 0px 10px -3px #2271b1;
+}
+.multiple-home-page-imports .button-wrap a:hover{
+	background: none;
+	border-color: unset;
+	box-shadow: 0px 0px 10px 1px #2271b1;
+}
+.multiple-home-page-imports .themes-name{
+	font-size: 18px;
+	color:#1d2327;
+}
+.step-themes .more-info{
+	display:none;
+}
+.wee-whizzie-wrap.loaded {
+    opacity: 1;
+    max-width: 100% !important;
+    text-align: center;
+}
+.wee-wizard-logo-wrap{
+    opacity: 1;
+    max-width: 100% !important;
+    text-align: center;
+}
+
+#wpfooter{
+    position: unset !important;
+}

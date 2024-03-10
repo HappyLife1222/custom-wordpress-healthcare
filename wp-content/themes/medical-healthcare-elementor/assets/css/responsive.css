@@ -1,0 +1,212 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .sidebar-area {
+    border-left: none;
+    padding: 0;
+  }
+  #main-menu ul li a:before,
+  .menu-header {
+    content: none;
+    position: static;
+  }
+  button.menu-toggle:focus,
+  a.open-search-form:focus {
+    outline: 3px solid #ffbc00 !important;
+    text-decoration: none !important;
+  }
+  .menu-toggle,
+  .dropdown-toggle {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    background: #1565c0;
+    color: #ffffff;
+    border: none;
+  }
+  #main-menu ul li a {
+    color: #2a2f35;
+  }
+  #main-menu {
+    display: none;
+  }
+  .header.toggled #main-menu {
+    display: block;
+    z-index: 999999;
+    margin-bottom: 10px;
+  }
+  button.close-menu {
+    display: inline-block;
+    background: #1565c0;
+    border: none;
+    color: #fff;
+  }
+  #main-menu ul li {
+    float: left;
+    width: 100%;
+  }
+  #main-menu ul li:nth-child(even) {
+    background: #f5f5f5;
+  }
+  #main-menu ul li:nth-child(odd) {
+    background: #e5e5e5;
+  }
+  #main-menu > li > ul.children,
+  #main-menu > li > ul.sub-menu {
+    position: absolute;
+    top: -100%;
+    background: #fff;
+  }
+  #main-menu li.focus > ul.children,
+  #main-menu li.focus > ul.sub-menu,
+  #main-menu li:hover > ul.children,
+  #main-menu li:hover > ul.sub-menu,
+  #main-menu li:focus > ul.children,
+  #main-menu li:focus > ul.sub-menu {
+    width: 100%;
+    top: 0;
+    left: 0 !important;
+    position: relative;
+  }
+  #main-menu ul {
+    padding: 0;
+    float: none;
+  }
+  #main-menu ul.children li a,
+  #main-menu ul.sub-menu li a {
+    padding: 0;
+    line-height: 53px;
+    color: #4a5053;
+  }
+  #main-menu ul li.menu-item-has-children:after {
+    content: "";
+    position: absolute;
+    border: solid #4a5053;
+    right: 10px;
+    top: 50%;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    -webkit-transform: translate(0, -50%) rotate(-45deg);
+    transform: translate(0, -50%) rotate(-45deg);
+  }
+  #main-menu ul.children li,
+  #main-menu ul.sub-menu li {
+    width: 100%;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  #main-menu ul li.menu-item-has-children:hover:after,
+  #main-menu ul li.menu-item-has-children:focus:after,
+  #main-menu ul li.menu-item-has-children.focus:after {
+    top: 20px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  #main-menu a:hover,
+  #main-menu ul li a:hover,
+  #main-menu li:hover > a,
+  #main-menu a:focus,
+  #main-menu ul li a:focus,
+  #main-menu li.focus > a,
+  #main-menu li:focus > a,
+  #main-menu ul li.current-menu-item > a,
+  #main-menu ul li.current_page_item > a,
+  #main-menu ul li.current-menu-parent > a,
+  #main-menu ul li.current_page_ancestor > a,
+  #main-menu ul li.current-menu-ancestor > a {
+    background: none;
+  }
+  .social-links{
+    margin-top: 6px;
+  }
+  .header-icon{
+    margin-bottom: 15px;
+  }
+  .header-image-box {
+    height: 200px;
+    background-size: cover !important;
+  }
+  .header-image-box h1 {
+    font-size: 35px;
+  }
+  .woocommerce ul.products[class*="columns-"] li.product,
+  .woocommerce-page ul.products[class*="columns-"] li.product {
+    width: 100% !important;
+  }
+  .wc-block-grid__products .wc-block-grid__product-image img{
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .girl-image img {
+    right: 0;
+  }
+  #main-menu ul li a {
+    font-size: 12px;
+  }
+  .post-box:hover img,
+  .post-box.box img {
+    transform: none;
+  }
+  .post-box .box {
+    border-radius: 10px 10px 0 0;
+  }
+  .header-image-box {
+    background-size: cover !important;
+    height: 350px;
+  }
+  .wc-block-grid.has-4-columns .wc-block-grid__product {
+    flex: 1 0 48% !important;
+    max-width: 48% !important;
+  }
+  .wc-block-grid__products .wc-block-grid__product-image img{
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width : 992px) and (max-width : 2560px) {
+  .fixed-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 2px 2px 10px 0px #2d2d2d;
+    z-index: 9999;
+  }
+  .admin-bar .fixed-header{
+    margin-top: 30px !important;
+  }
+}
+
+/* HOME PAGE MEDIA CSS  */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .medical-healthcare-elementor-banner-section .banner-section-column-1 p  {
+    display: none;
+  }
+  .medical-healthcare-elementor-banner-section .banner-section-column-1 h1 {
+  font-size: 18px!important;
+  }
+  .banner-section-column .banner-section-column-1 {
+    margin:0px;
+  }
+  .medical-healthcare-elementor-banner-section .banner-section-column-1 , .banner-section-column-2{
+    width: 100% !important;
+  }
+  .medical-healthcare-elementor-banner-section .elementor-widget-button ,.banner-section-column-1 .elementor-widget-heading {
+    text-align: center!important;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .medical-healthcare-elementor-banner-section .banner-section-text{
+    display: none;
+  }
+  .medical-healthcare-elementor-banner-section .banner-section-column-1 , .banner-section-column-2{
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 2560px) {
+  .medical-healthcare-elementor-banner-section .banner-section-column {
+    padding: 10% 2%;
+  }
+}

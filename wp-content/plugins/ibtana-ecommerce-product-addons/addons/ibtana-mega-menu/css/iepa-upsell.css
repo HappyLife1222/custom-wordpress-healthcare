@@ -1,0 +1,85 @@
+.iepa-activation-notice {
+  background: linear-gradient(#6ccef5, #016194);
+  border-color: #016194;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  display: none;
+  border-width: 1px;
+  font-size: 11px;
+  font-weight: normal;
+  height: auto;
+  margin-left: 10px;
+  padding: 4px 10px;
+  transition: all 0.3s ease 0s;
+  width: auto;
+  position: absolute;
+}
+
+.iepa-activation-notice:before {
+  content: "\f111";
+  display: inline-block;
+  font-family: dashicons;
+  font-size: 10px;
+  margin-right: 2px;
+}
+
+#menu-to-edit li.menu-item .menu-item-handle:hover .iepa-activation-notice {
+  display: inline-block;
+}
+
+.iepa-menu-model {
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  background-color: rgba(22, 22, 22, 0.5);
+  z-index: 99999;
+}
+
+.iepa-menu-model .iepa-menu-body {
+  background: #fff;
+  padding: 20px;
+  top: 50%;
+  max-width: 662px;
+  transform: translateY(-50%);
+  z-index: 5;
+  box-shadow: 0 0 6px #e2e2e2;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.iepa-menu-model .iepa-menu-body p {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.iepa-menu-model .iepa-menu-body img {
+  width: 100%;
+}
+
+.iepa-menu-model .iepa-menu-body a {
+  font-size: 15px;
+  font-weight: 700;
+  background: linear-gradient(#6ccef5, #016194);
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.iepa-menu-model .iepa-menu-body .dashicons {
+  background: #016194;
+  color: #fff;
+  padding: 3px 3px;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  top: -5px;
+  left: 3px;
+  cursor: pointer;
+}

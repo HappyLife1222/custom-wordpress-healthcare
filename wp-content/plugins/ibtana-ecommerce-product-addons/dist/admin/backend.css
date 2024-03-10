@@ -1,0 +1,92 @@
+/* Accordion Admin */
+.iepa-accordion {
+  border: 1px solid #c3c4c7;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+  background: #fff;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.iepa-accordion:not(.actively-open) .iepa-accordion-content {
+  display: none;
+}
+
+.iepa-accordion-header {
+  color: #3c434a;
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 14px;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.iepa-accordion.actively-open .iepa-accordion-header {
+  border-bottom: 2px solid #c3c4c7;
+}
+
+.iepa-accordion-header .dashicons.dashicons-arrow-down,
+.iepa-accordion-header .dashicons.dashicons-arrow-up {
+  float: right;
+}
+
+.iepa-accordion:not(.actively-open) .dashicons.dashicons-arrow-up {
+  display: none;
+}
+
+.iepa-accordion.actively-open .dashicons.dashicons-arrow-down {
+  display: none;
+}
+
+/* Accordion Admin End */
+
+
+
+/* Nav tabs */
+.nav-tab-wrapper .nav-tab {
+  margin-left: 0;
+  padding: 1% 1.5%;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tab-wrapper .nav-tab:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-tab-wrapper .nav-tab.nav-tab-active {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.nav-tab-wrapper .nav-tab:not(.nav-tab-active) {
+  border: none;
+  background: none;
+}
+
+.iepa-admin-nav-tab-contents-wrapper {
+  padding: 1.5%;
+  background: white;
+  border-left: 1px solid #c3c4c7;
+  border-right: 1px solid #c3c4c7;
+  border-bottom: 1px solid #c3c4c7;
+}
+
+.iepa-accordion-content.form-table th {
+  padding: 1.8% 1.1%;
+}
+
+.form-table th {
+  padding: 1.8% 1.1%;
+}
+
+.iepa-admin-sticky-submit-wrapper {
+  position: sticky;
+  bottom: 0;
+  z-index: 9;
+  padding: 1%;
+  background: #fff;
+}

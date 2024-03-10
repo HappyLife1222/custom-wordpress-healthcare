@@ -1,0 +1,133 @@
+.field_icpa {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.field_icpa .field_label_icpa {
+  width: 20%;
+  font-weight: bold;
+}
+
+.field_icpa .field_input_icpa {
+  width: 80%;
+}
+
+.field_icpa .field_input_icpa input {
+  width: 50%;
+}
+
+.field_icpa .required {
+  color: red;
+}
+
+.field_icpa .field_input_icpa input[type="checkbox"] {
+  width: unset;
+}
+
+.field_icpa .field_input_icpa .checkbox_support, .field_icpa .field_input_icpa .checkbox_posttype {
+  margin-bottom: 10px;
+}
+
+.field_icpa_wrapper {
+  padding: 30px;
+}
+
+.content-settings .table.widefat {
+  border: unset;
+}
+
+.no_posttype {
+  text-align: center !important;
+  font-weight: bold;
+}
+
+.icpa-notice-bar {
+  margin: 0 0 15px 0;
+}
+
+/* Tabs CSS */
+ul.nav.nav-tabs {
+  clear: both;
+}
+
+ul.nav.nav-tabs li {
+  list-style: none;
+  float: left;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-tabs>li>a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav-tabs>li>a:focus {
+  box-shadow: unset;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.nav>li {
+  position: relative;
+  display: block;
+}
+
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+  display: table;
+  content: " ";
+}
+
+.nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+  clear: both;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-pane:not(.active) {
+  display: none;
+}
+
+.icpa-content .tab-content {
+  padding: 1.5%;
+  background: white;
+}
+
+.taxonomy-settings-parent-wrapper.taxonomy-view-parent {
+  margin-top: 2%;
+}
+
+#category-image-wrapper img {
+  width: 25%;
+  height: auto;
+}

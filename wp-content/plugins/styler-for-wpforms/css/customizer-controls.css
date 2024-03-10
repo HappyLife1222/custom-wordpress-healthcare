@@ -1,0 +1,230 @@
+
+
+
+
+
+li[id$=-max-width-label-only]+li[id$=-max-width],
+li[id$=-max-width-tab],
+li[id$=-max-width-phone],
+li[id$=-label-only]+li[id$=-font-size],
+li[id$=-font-size-tab],
+li[id$=-font-size-phone],
+li[id$=-label-only]+li[id$=-height],
+li[id$=-height-tab],
+li[id$=-height-phone],
+li[id$=-border-label-only]+li[id$=-border-size],
+li[id$=-border-label-only]+li[id$=-border-size]+li[id$=-border-type],
+li[id$=-border-label-only]+li[id$=-border-size]+li[id$=-border-type]+li[id$=-border-radius]{
+  max-width: 31%;
+  display: inline-block !important;
+  clear: none;
+  margin-right: 2%;
+  text-align: center;
+}
+
+li[id$=-max-width-phone],
+li[id$=-font-size-phone],
+li[id$=-height-phone],
+li[id$=-border-radius] {
+  margin-right: 0;
+}
+
+li[id$=-border-size] label,
+li[id$=-border-type] label,
+li[id$=-border-radius] label,
+li[id$=-padding-left] label,
+li[id$=-padding-right] label,
+li[id$=-padding-top] label,
+li[id$=-padding-bottom] label,
+li[id$=-margin-left] label,
+li[id$=-margin-top] label,
+li[id$=-margin-bottom] label,
+li[id$=-margin-right] label {
+  margin-top: 4px;
+  font-size: 10px;
+}
+
+.sfwf_responsive_text_input {
+  cursor: pointer;
+}
+
+.sfwf_responsive_text_input::before {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font: 400 20px/30px dashicons;
+  vertical-align: top;
+  margin: 3px 0;
+  padding: 4px 8px;
+  color: #b7b7b7;
+}
+
+.sfwf_responsive_text_input.active::before {
+  color: #2e86b9;
+}
+
+.sfwf_desktop_text_input::before {
+  content: "\f472";
+}
+
+.sfwf_tab_text_input::before {
+  content: "\f471";
+}
+
+.sfwf_mobile_text_input::before {
+  content: "\f470";
+}
+
+/* li[id$=-max-width]:before, li[id$=-font-size]::before, li[id$=-height]::before{
+    content: "\f472";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: 400 20px/30px dashicons;
+    vertical-align: top;
+    margin: 3px 0;
+    padding: 4px 8px;
+    color: #b7b7b7;
+   }
+
+li[id$=-max-width-tab]::before, li[id$=-font-size-tab]::before, li[id$=-height-tab]::before{
+    content: "\f471";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: 400 20px/30px dashicons;
+    vertical-align: top;
+    margin: 3px 0;
+    padding: 4px 8px;
+    color: #b7b7b7;
+   }
+li[id$=-max-width-phone]::before, li[id$=-font-size-phone]::before, li[id$=-height-phone]::before{
+    content: "\f470";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: 400 20px/30px dashicons;
+    vertical-align: top;
+    margin: 3px 0;
+    padding: 4px 8px;
+    color: #b7b7b7;
+   } */
+/*
+   li[id$=-max-width-tab], li[id$=-font-size-tab]::before, li[id$=-height-tab], li[id$=-max-width-phone], li[id$=-font-size-phone]::before, li[id$=-height-phone], li[id$=-max-width], li[id$=-font-size], li[id$=-height]{
+	   text-align: center;
+   } */
+
+li[id$=-label-only] {
+  margin-bottom: 0px;
+}
+
+li[id$=-label-only] .customize-control-title {
+  margin-bottom: 0px;
+}
+
+li[id$=form-wrapper-background-type] label {
+  max-width: 30%;
+  display: inline-block;
+  margin-right: 2%;
+
+}
+
+li[id$=-padding-label-only]+li[id$=-padding-top],
+li[id$=-padding-label-only]+li[id$=-padding-top]+li[id$=-padding-bottom],
+li[id$=-padding-label-only]+li[id$=-padding-top]+li[id$=-padding-bottom]+li[id$=-padding-left],
+li[id$=-padding-label-only]+li[id$=-padding-top]+li[id$=-padding-bottom]+li[id$=-padding-left]+li[id$=-padding-right],
+li[id$=-margin-label-only]+li[id$=-margin-top],
+li[id$=-margin-label-only]+li[id$=-margin-top]+li[id$=-margin-bottom],
+li[id$=-margin-label-only]+li[id$=-margin-top]+li[id$=-margin-bottom]+li[id$=-margin-left],
+li[id$=-margin-label-only]+li[id$=-margin-top]+li[id$=-margin-bottom]+li[id$=-margin-left]+li[id$=-margin-right] {
+  max-width: 22%;
+  display: inline-block !important;
+  clear: none;
+  margin-right: 2%;
+  text-align: center;
+}
+
+li[id$=-form-wrapper-background-type] .customize-inside-control-row,
+li[id$=-form-wrapper-gradient-direction] .customize-inside-control-row {
+  width: calc(32% - 24px);
+  display: inline-block;
+}
+
+/* Text Alignment CSS */
+span.sfwf_text_alignment {
+  margin-left: 0;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  background: #f4f4f4;
+  padding: 6px 0;
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+  text-align: center;
+  font-size: 14px;
+  color: #32373c;
+}
+
+span.sfwf_text_alignment:last-of-type {
+  margin-right: 0;
+}
+
+input.sfwf_text_alignment_radio {
+  display: none;
+}
+
+span.sfwf_text_alignment {
+  display: inline-block;
+  cursor: pointer;
+}
+
+span.sfwf_text_alignment.sfwf_text_alignment_checked {
+  background: #2e86b9;
+}
+
+span.sfwf_text_alignment::before,
+span.sfwf_text_alignment.sfwf_text_alignment_checked::before {
+  font-family: 'dashicons';
+  font-size: 24px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span.sfwf_text_alignment:before {
+  color: #B7B7B7;
+}
+
+span.sfwf_text_alignment.sfwf_text_alignment_checked::before {
+  color: #FFF;
+  margin: 0;
+}
+
+span.sfwf_text_alignment.sfwf_font_value_left::before,
+span.sfwf_text_alignment.sfwf_text_alignment_checked.sfwf_font_value_left::before {
+  content: "\f206";
+}
+
+span.sfwf_text_alignment.sfwf_font_value_center::before,
+span.sfwf_text_alignment.sfwf_text_alignment_checked.sfwf_font_value_center::before {
+  content: "\f207";
+}
+
+span.sfwf_text_alignment.sfwf_font_value_right::before,
+span.sfwf_text_alignment.sfwf_text_alignment_checked.sfwf_font_value_right::before {
+  content: "\f208";
+}
+
+span.sfwf_text_alignment.sfwf_font_value_justify::before,
+span.sfwf_text_alignment.sfwf_text_alignment_checked.sfwf_font_value_justify::before {
+  content: "\f214";
+}
+
+li[id^=customize-control-gf_sfwf_form_id_] .wp-picker-container button.button,
+li[id^=customize-control-gf_sfwf_form_id_] .wp-picker-container button.button:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wp-customizer li[id^=customize-control-gf_sfwf_form_id_] .wp-color-result:after {
+  content: 'Select Color';
+}

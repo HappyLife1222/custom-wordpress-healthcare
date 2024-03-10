@@ -1,0 +1,113 @@
+/*Banner section*/
+.banner-section, .specialize-section{
+  width: auto;
+  height: auto;
+}
+.banner-section{
+  min-height: 600px;
+}
+.banner-section h1{
+  font-weight: 800;
+}
+.banner-section .wp-block-columns img, .specialize-section img{
+  width: auto !important;
+}
+.banner-section p{
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0 !important;
+  font-family: 'Exo 2', sans-serif;
+}
+.banner-section .wp-block-button__link{
+  background: #00356c !important;
+  font-size: 15px;
+  padding: 12px 25px;
+  font-weight: 500;
+}
+.banner-section .wp-block-button__link:hover, .specialize-section .wp-block-button__link:hover{
+  background: #2cd7bd !important;
+  color: #00386c !important;
+}
+
+/*Specialize section*/
+.specialize-section h2{
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.specialize-section p:first-child{
+  font-weight: 600;
+  margin-bottom: 10px !important;
+  font-family: 'Exo 2', sans-serif;
+}
+.specialize-section .wp-block-button{
+  background: #f4f8f9;
+  padding: 0 20px;
+  margin-bottom: 0 !important;
+}
+.specialize-section .wp-block-separator{
+  border-top: solid #e1dedf;
+  border-width: 4px 0 0 0;
+  position: relative;
+  margin-top: -22px;
+  opacity: 1;
+  max-width: 100% !important;
+  z-index: -1;
+  margin-bottom: 50px !important;
+  padding: 0;
+}
+.specialize-section img {
+  border: 10px solid #f4f8f9;
+  border-radius: 50%;
+}
+.specialize-box{
+  background: #fff;
+}
+.specialize-box:hover{
+  background: #5191cd;
+}
+.specialize-box:hover h3, .specialize-box:hover p{
+  color: #fff !important;
+}
+.specialize-box h3{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-weight: 600;
+}
+.specialize-box .wp-block-image{
+  margin-bottom: -75px !important;
+}
+.specialize-box figure{
+  border: 0;
+}
+.specialize-section .wp-block-button__link{
+  background: #00356c !important;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 30px; 
+  font-weight: 500; 
+}
+/*----------------Media Section---------------------*/
+@media screen and (max-width:768px) and (min-width: 576px) {
+  .specialize-section .wp-block-columns{
+    flex-wrap: nowrap !important;
+    gap: 1em;
+  }
+  .specialize-section .wp-block-column:nth-child(2){
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .banner-section{
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 575px){
+  .specialize-section h2{
+    font-size: 35px !important;
+  }
+  .specialize-box {
+    margin-top: 15px;
+  }
+  .banner-section{
+    min-height: auto;
+  }
+}
