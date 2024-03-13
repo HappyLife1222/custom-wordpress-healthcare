@@ -77,6 +77,32 @@ if ( class_exists("Kirki")){
 
 	Kirki::add_field( 'theme_config_id', [
 		'type'        => 'custom',
+		'settings'    => 'medical_healthcare_elementor_site_tittle_transform_heading',
+		'section'     => 'title_tagline',
+		'default'     => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Site Title Text Transform', 'medical-healthcare-elementor' ) . '</h3>',
+	] );
+
+	Kirki::add_field( 'theme_config_id', array(
+		'type'        => 'select',
+		'settings'    => 'medical_healthcare_elementor_site_tittle_transform',
+		'section'     => 'title_tagline',
+		'default'     => 'none',
+		'choices'     => [
+			'none' => esc_html__( 'Normal', 'medical-healthcare-elementor' ),
+			'uppercase' => esc_html__( 'Uppercase', 'medical-healthcare-elementor' ),
+			'lowercase' => esc_html__( 'Lowercase', 'medical-healthcare-elementor' ),
+			'capitalize' => esc_html__( 'Capitalize', 'medical-healthcare-elementor' ),
+		],
+		'output' => array(
+			array(
+				'element'  => array( '.logo a'),
+				'property' => ' text-transform',
+			),
+		),
+	 ) );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
 		'settings'    => 'medical_healthcare_elementor_site_tagline_font_heading',
 		'section'     => 'title_tagline',
 		'default'     => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Site Tagline Font Size', 'medical-healthcare-elementor' ) . '</h3>',
@@ -94,6 +120,14 @@ if ( class_exists("Kirki")){
 				'suffix' => 'px'
 			),
 		),
+	) );
+	
+	Kirki::add_field( 'theme_config_id', array(
+		'type'        => 'custom',
+		'settings'    => 'medical_healthcare_elementor_logo_settings_premium_features',
+		'section'     => 'title_tagline',
+		'priority'    => 50,
+		'default'     => '<h3 style="color: #2271b1; padding:5px 20px 5px 20px; background:#fff; margin:0;  box-shadow: 0 2px 4px rgba(0,0,0, .2); ">' . esc_html__( 'Unlock More Features in the Premium Version!', 'medical-healthcare-elementor' ) . '</h3><ul style="color: #121212; padding: 5px 20px 20px 30px; background:#fff; margin:0;" ><li style="list-style-type: square;" >' . esc_html__( 'Customizable Text Logo', 'medical-healthcare-elementor' ) . '</li><li style="list-style-type: square;" >'.esc_html__( 'Enhanced Typography Options', 'medical-healthcare-elementor' ) .'</li><li style="list-style-type: square;" >'.esc_html__( 'Priority Support', 'medical-healthcare-elementor' ) .'</li><li style="list-style-type: square;" >'.esc_html__( '....and Much More', 'medical-healthcare-elementor' ) . '</li></ul><div style="background: #fff; padding: 0px 10px 10px 20px;"><a href="' . esc_url( __( 'https://www.wpelemento.com/elementor/healthcare-wordpress-theme/', 'medical-healthcare-elementor' ) ) . '" class="button button-primary" target="_blank">'. esc_html__( 'Upgrade for more', 'medical-healthcare-elementor' ) .'</a></div>',
 	) );
 
 	// TYPOGRAPHY SETTINGS
@@ -488,7 +522,7 @@ if ( class_exists("Kirki")){
 			'link_text' => [
 				'type'        => 'text',
 				'label'       => esc_html__( 'Icon', 'medical-healthcare-elementor' ),
-				'description' => esc_html__( 'Add the fontawesome class ex: "fab fa-facebook-f".', 'medical-healthcare-elementor' ),
+				'description' => esc_html__( 'Add the fontawesome class ex: "fab fa-facebook-f".', 'medical-healthcare-elementor' ). ' <a href="https://fontawesome.com/v5/search?o=r&m=free&f=brands" target="_blank"><strong>' . esc_html__( 'View All', 'medical-healthcare-elementor' ) . ' </strong></a>',
 				'default'     => '',
 			],
 			'link_url' => [
@@ -694,6 +728,14 @@ if ( class_exists("Kirki")){
 			),
 		),
 	) );
+
+	Kirki::add_field( 'theme_config_id', array(
+		'type'        => 'custom',
+		'settings'    => 'medical_healthcare_elementor_logo_settings_premium_features_header',
+		'section'     => 'medical_healthcare_elementor_section_topbar',
+		'priority'    => 50,
+		'default'     => '<h3 style="color: #2271b1; padding:5px 20px 5px 20px; background:#fff; margin:0;  box-shadow: 0 2px 4px rgba(0,0,0, .2); ">' . esc_html__( 'Enhance your header design now!', 'medical-healthcare-elementor' ) . '</h3><ul style="color: #121212; padding: 5px 20px 20px 30px; background:#fff; margin:0;" ><li style="list-style-type: square;" >' . esc_html__( 'Customize your header background color', 'medical-healthcare-elementor' ) . '</li><li style="list-style-type: square;" >'.esc_html__( 'Adjust icon and text font sizes', 'medical-healthcare-elementor' ) .'</li><li style="list-style-type: square;" >'.esc_html__( 'Explore enhanced typography options', 'medical-healthcare-elementor' ) .'</li><li style="list-style-type: square;" >'.esc_html__( '....and Much More', 'medical-healthcare-elementor' ) . '</li></ul><div style="background: #fff; padding: 0px 10px 10px 20px;"><a href="' . esc_url( __( 'https://www.wpelemento.com/elementor/healthcare-wordpress-theme/', 'medical-healthcare-elementor' ) ) . '" class="button button-primary" target="_blank">'. esc_html__( 'Upgrade for more', 'medical-healthcare-elementor' ) .'</a></div>',
+	) );
 	
 	//ADDITIONAL SETTINGS
 
@@ -764,6 +806,64 @@ if ( class_exists("Kirki")){
 			),
 		),
 	 ) );
+
+	 Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'settings'    => 'medical_healthcare_elementor_header_image_height_heading',
+		'section'     => 'medical_healthcare_elementor_additional_setting',
+		'default'     => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Header Image height', 'medical-healthcare-elementor' ) . '</h3>',
+	] );
+
+	Kirki::add_field( 'theme_config_id', array(
+		'settings'    => 'medical_healthcare_elementor_header_image_height',
+		'label'       => __( 'Image Height', 'medical-healthcare-elementor' ),
+		'description'    => esc_html__( 'Enter a value in pixels. Example:500px', 'medical-healthcare-elementor' ),
+		'type'        => 'text',
+		'default'    => [
+			'desktop' => '550px',
+			'tablet'  => '350px',
+			'mobile'  => '200px',
+		],
+		'responsive' => true,
+		'section'     => 'medical_healthcare_elementor_additional_setting',
+		'transport' => 'auto',
+		'output' => array(
+			array(
+				'element'  => array('.header-image-box'),
+				'property' => 'height',
+				'media_query' => [
+					'desktop' => '@media (min-width: 1024px)',
+					'tablet'  => '@media (min-width: 768px) and (max-width: 1023px)',
+					'mobile'  => '@media (max-width: 767px)',
+				],
+			),
+		),
+	) );
+
+	 Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'settings'    => 'medical_healthcare_elementor_header_overlay_heading',
+		'section'     => 'medical_healthcare_elementor_additional_setting',
+		'default'     => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Header Image Overlay', 'medical-healthcare-elementor' ) . '</h3>',
+	] );
+
+	Kirki::add_field( 'theme_config_id', array(
+		'settings'    => 'medical_healthcare_elementor_header_overlay_setting',
+		'label'       => __( 'Overlay Color', 'medical-healthcare-elementor' ),
+		'type'        => 'color',
+		'section'     => 'medical_healthcare_elementor_additional_setting',
+		'transport' => 'auto',
+		'default'     => '#00000080',
+		'choices'     => [
+			'alpha' => true,
+		],
+		'output' => array(
+			array(
+				'element'  => '.header-image-box:before',
+				'property' => 'background',
+			),
+		),
+	) );
 
 	Kirki::add_field( 'theme_config_id', [
 		'type'        => 'toggle',
@@ -1315,5 +1415,13 @@ if ( class_exists("Kirki")){
 				'property' => 'color',
 			),
 		),
+	) );
+
+	Kirki::add_field( 'theme_config_id', array(
+		'type'        => 'custom',
+		'settings'    => 'medical_healthcare_elementor_logo_settings_premium_features_footer',
+		'section'     => 'medical_healthcare_elementor_footer_section',
+		'priority'    => 50,
+		'default'     => '<h3 style="color: #2271b1; padding:5px 20px 5px 20px; background:#fff; margin:0;  box-shadow: 0 2px 4px rgba(0,0,0, .2); ">' . esc_html__( 'Elevate your footer with premium features:', 'medical-healthcare-elementor' ) . '</h3><ul style="color: #121212; padding: 5px 20px 20px 30px; background:#fff; margin:0;" ><li style="list-style-type: square;" >' . esc_html__( 'Tailor your footer layout', 'medical-healthcare-elementor' ) . '</li><li style="list-style-type: square;" >'.esc_html__( 'Integrate an email subscription form', 'medical-healthcare-elementor' ) .'</li><li style="list-style-type: square;" >'.esc_html__( 'Personalize social media icons', 'medical-healthcare-elementor' ) .'</li><li style="list-style-type: square;" >'.esc_html__( '....and Much More', 'medical-healthcare-elementor' ) . '</li></ul><div style="background: #fff; padding: 0px 10px 10px 20px;"><a href="' . esc_url( __( 'https://www.wpelemento.com/elementor/healthcare-wordpress-theme/', 'medical-healthcare-elementor' ) ) . '" class="button button-primary" target="_blank">'. esc_html__( 'Upgrade for more', 'medical-healthcare-elementor' ) .'</a></div>',
 	) );
 }

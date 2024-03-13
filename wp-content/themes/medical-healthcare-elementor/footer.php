@@ -75,13 +75,14 @@
           <?php endif; ?>
         </div>
       </div>
-      <?php if ( get_theme_mod('medical_healthcare_elementor_scroll_enable_setting')) : ?>
-        <div class="scroll-up">
-          <a href="#tobottom"><i class="fa fa-arrow-up"></i></a>
-        </div>
-      <?php endif; ?>
+
     </div>
   </div>
+  <?php if ( get_theme_mod('medical_healthcare_elementor_scroll_enable_setting')) : ?>
+    <div class="scroll-up">
+      <a href="#tobottom"><i class="fa fa-arrow-up"></i></a>
+    </div>
+  <?php endif; ?>
 </footer>
 
 <?php wp_footer(); ?>

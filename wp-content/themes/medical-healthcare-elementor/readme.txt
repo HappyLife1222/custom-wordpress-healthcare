@@ -1,7 +1,7 @@
 === Medical Healthcare Elementor ===
 Contributors: wpelemento
 Requires at least: 5.0
-Stable tag: 0.2.2
+Stable tag: 0.2.4
 Requires PHP: 5.6
 Tested up to: 6.4
 License: GPLv3.0 or later
@@ -64,6 +64,17 @@ License URI : https://stocksnap.io/license, CC0
 Source 		: https://pxhere.com/en/photo/1446755
 
 == Changelog ==
+
+= March-5-2024 :: 0.2.4
+
+* Added header image height option in customizer.
+* Added site title text transform option in customizer.
+
+= February-18-2024 :: 0.2.3
+
+* Added view all button for social icon.
+* Added information about premium features.
+* Resolved css issue for preview tagcloud.
 
 = February-2-2024 :: 0.2.2
 

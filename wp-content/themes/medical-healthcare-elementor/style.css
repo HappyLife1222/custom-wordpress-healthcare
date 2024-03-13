@@ -4,7 +4,7 @@ Description: The Medical Healthcare Elementor is a pre-designed website template
 Author: wpelemento
 Theme URI: https://www.wpelemento.com/elementor/free-medical-wordpress-theme/
 Author URI: https://www.wpelemento.com/
-Version: 0.2.2
+Version: 0.2.4
 Requires PHP: 5.6
 Tested up to: 6.4
 Requires at least: 5.0
@@ -158,7 +158,7 @@ a:focus {
   color: #7A7A7A;
 }
 .topheader {
-  background: green;
+  background: #ffffff;
 }
 .middleheader{
   background: #ffffff;
@@ -183,7 +183,7 @@ a:focus {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgb(0 0 0 / 50%);
+  background: #00000080;
   opacity: 0.9;
   z-index: 1;
 }
@@ -947,7 +947,7 @@ img.aligncenter {
     margin: auto;
   }
   .sidebar-area .wp-block-tag-cloud a,
-  .footer-area .wp-block-tag-cloud a {
+  .footer-area .wp-block-tag-cloud a ,.tag-cloud-link{
     font-size: 15px !important;
     color: #5b5b5b;
     display: inline-block;
@@ -961,11 +961,11 @@ img.aligncenter {
     color: #fff;
   }
   .sidebar-area .wp-block-tag-cloud a:before,
-  .footer-area .wp-block-tag-cloud a:before  {
+  .footer-area .wp-block-tag-cloud a:before,.tag-cloud-link:before  {
     content: "#";
   }
   .sidebar-area .wp-block-tag-cloud a:hover,
-  .footer-area .wp-block-tag-cloud a:hover{
+  .footer-area .wp-block-tag-cloud a:hover,.tag-cloud-link:hover{
     background: #1565c0;
     color: #fff;
   }
@@ -1442,18 +1442,4 @@ color:#fff;
 .services-section-column {
   border: 3px solid #f1f1f1;
   margin-bottom: 8px;
-}
-
-
-
-
-
-
-.container {
-  max-width: 1400px;
-}
-
-#main-menu ul li > a {
-  font-size: 15px;
-  color: white;
 }

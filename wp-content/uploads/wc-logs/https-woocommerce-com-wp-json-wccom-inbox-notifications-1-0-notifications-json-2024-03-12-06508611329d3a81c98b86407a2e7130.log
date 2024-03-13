@@ -1,0 +1,22 @@
+2024-03-12T21:35:56+00:00 ERROR Error getting data feed
+2024-03-12T21:35:56+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 56: OpenSSL SSL_read: OpenSSL/3.1.3: error:0A00010B:SSL routines::wrong version number, errno 0
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+

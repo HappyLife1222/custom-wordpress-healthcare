@@ -73,7 +73,7 @@ final class Medical_Healthcare_Elementor_Customize {
 				'medical_healthcare_elementor_upgrade_pro',
 				array(
 					'title'       => esc_html__( 'Medical Healthcare Pro', 'medical-healthcare-elementor' ),
-					'pro_text'    => esc_html__( 'GO PRO', 'medical-healthcare-elementor' ),
+					'pro_text'    => esc_html__( 'GET PRO', 'medical-healthcare-elementor' ),
 					'pro_url'     => 'https://www.wpelemento.com/elementor/healthcare-wordpress-theme/',
 					'priority'    => 5,
 				)
